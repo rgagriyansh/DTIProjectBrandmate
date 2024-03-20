@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influencer Profile</title>
+    <link rel="stylesheet" href="influncers.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Influencer Profile</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="social-media">Social Media Links:</label>
+                <input type="url" id="social-media" name="social-media" placeholder="https://instagram.com/yourprofile" required>
+            </div>
+
+            <div class="form-group">
+                <label for="content-niche">Content Niche or Category:</label>
+                <div class="category-checkboxes">
+                    <input type="checkbox" id="fashion" name="category[]" value="Fashion">
+                    <label for="fashion">Fashion</label>
+
+                    <input type="checkbox" id="beauty" name="category[]" value="Beauty">
+                    <label for="beauty">Beauty</label>
+
+                    <input type="checkbox" id="travel" name="category[]" value="Travel">
+                    <label for="travel">Travel</label>
+
+                    <input type="checkbox" id="food" name="category[]" value="Food">
+                    <label for="food">Food</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="followers">Followers (Approx.):</label>
+                <input type="number" id="followers" name="followers" required>
+            </div>
+
+            <div class="form-group">
+                <label for="engagement-rate">Engagement Rate:</label>
+                <input type="text" id="engagement-rate" name="engagement-rate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="average-likes">Average Likes:</label>
+                <input type="number" id="average-likes" name="average-likes" required>
+            </div>
+
+            <div class="form-group">
+                <label for="average-comments">Average Comments:</label>
+                <input type="number" id="average-comments" name="average-comments" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contact-preference">Contact Preference:</label>
+                <input type="text" id="contact-preference" name="contact-preference" required>
+            </div>
+
+            <div class="form-group">
+                <label for="preferred-brands">Preferred Brands:</label>
+                <textarea id="preferred-brands" name="preferred-brands" rows="3" required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
